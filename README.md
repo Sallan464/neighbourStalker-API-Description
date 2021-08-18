@@ -52,7 +52,8 @@ Startup guide pending creation of API
 | John Johnson | 123 Fake Street | AB1 2CD | 1 | 2 |
 
 ## HTTP Pathways:
-```GET /houses 
+```
+GET /houses 
 GET /houses/:id 
 GET /houses/:id/occupants
 POST /houses
@@ -78,7 +79,9 @@ DELETE /people/:id
 | DELETE /people/:id | Removes house from database |
 
 ## Example Request:
-```GET /houses/:id
+```
+GET /houses/:id
+res = 200
 Host: api.neighbourstalker.com
 Authorisation: 123456789qwertyuiop
 Content-Type: application/json
